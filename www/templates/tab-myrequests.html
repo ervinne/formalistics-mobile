@@ -1,0 +1,16 @@
+<ion-view view-title="My Requests">
+    <ion-content>
+        <ion-list>
+            <ion-item href="#/tab/myrequests/{{myrequest.ID}}" ng-repeat="myrequest in myrequests" class="item-text-wrap item-remove-animate item-icon-right">
+                <span>Form id: {{myrequest.ID}}</span>
+                <span>Tracking Number: {{myrequest.TrackNo}}</span>
+                <span>Status: {{myrequest.Status}}</span>
+                <span>Date Created: {{myrequest.DateCreated}}</span>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+                <ion-option-button class=" button-positive" ng-click="">
+                    View
+                </ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

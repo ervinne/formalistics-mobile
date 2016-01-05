@@ -1,0 +1,34 @@
+<ion-view view-title=""> <!-- Form name -->
+	<!-- <ion-nav-buttons side="right">
+	        <button class="button button-icon button-clear ion-close-circled"></button>
+	        <button class="button button-icon button-clear ion-minus-circled" ng-click="onCloseRequest()"></button>
+	     </ion-nav-buttons> -->
+  	<ion-content>
+	    <ion-list ng-repeat="request in myrequests | filter:{ID:whichData}">
+	      <div class="item item-divider bar bar-positive">Header Information</div>
+	      <ion-item>
+			Tracking Number : {{request.TrackNo}}
+	      </ion-item>
+	      <ion-item>
+			Date Created : {{request.DateCreated}}
+	      </ion-item>
+	      <ion-item>
+			Requestor : {{request.Requestor}}
+	      </ion-item>
+	      <ion-item>
+			Processor : {{request.Processor}}
+	      </ion-item>
+	      <ion-item>
+			Status : {{request.Status}}
+	      </ion-item>
+	      <div class="item item-divider bar bar-positive">Field Information</div>
+	      <ion-item>Deleveloper Name : {{request.developer_name}}</ion-item>
+	      <ion-item>Deleveloper Contact : {{request.developer_contact}}</ion-item>
+	      <ion-item>Deleveloper Address : {{request.developer_address}}</ion-item>
+	      <ion-item>Deleveloper Languages : {{request.developer_languages}}</ion-item>
+	      <ion-item>Deleveloper Position : {{request.developer_position}}</ion-item>
+	      <ion-item>Deleveloper Shift : {{request.developer_shift}}</ion-item>
+	      <ion-item>Requestor Email : {{request.requestor_email}}</ion-item>
+	    </ion-list>
+  	</ion-content>
+</ion-view>

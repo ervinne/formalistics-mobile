@@ -1,0 +1,36 @@
+{
+	"results": [
+		{
+	      "id":"0",
+	      "postName": "Ben Sparrow",
+	      "postAvatar": "img/avatar/ben.png",
+	      "postText": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even",
+	      "postImage": "img/post/uppcbanner.jpg",
+	      "postDate": "12-20-2015",
+	      "postLikeCtr": "7",
+	      "postCommentCtr":"5"
+	    },
+
+	    {
+	      "id":"1",
+	      "postName": "Adam Eve",
+      	"postAvatar": "img/avatar/adam.jpg",
+	      "postText": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even",
+	      "postImage": "img/post/1024.jpg",
+	      "postDate": "12-29-2015",
+	      "postLikeCtr": "98",
+	      "postCommentCtr":"23"
+	    },
+
+	    {
+	      "id":"2",
+	      "postName": "Max Lynx",
+      	"postAvatar": "img/avatar/max.png",
+	      "postText":	"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even",
+	      "postImage": "img/post/Android_apps_design.png",
+	      "postDate": "12-29-2015",
+	      "postLikeCtr": "10",
+	      "postCommentCtr":"5"
+	    }
+	]
+}

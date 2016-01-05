@@ -1,0 +1,29 @@
+<ion-view view-title="Login" name="login-view" hide-nav-bar="true"  class="cclrbackground">
+    <ion-content class="padding">
+        <div class="display_table">
+            <div class="display_table_cell">
+                <img src="img/appimg/for-1280.png" style="width: 100%">
+                <div class="list list-inset">
+                    <label class="item item-input reset_border_radius_top_left">
+                        <i class="icon ion-ios-cloud-outline placeholder-icon"></i>
+                        <input type="text" placeholder="Server" ng-model="loginData.server">
+                    </label>
+                    <label class="item item-input reset_border_radius_top_left">
+                        <i class="ion-ios-email-outline placeholder-icon"></i>
+                        <input type="text" placeholder="Email" ng-model="loginData.username">
+                    </label>
+                    <label class="item item-input">
+                        <i class="ion-ios-locked-outline placeholder-icon"></i>
+                        <input type="password" placeholder="Password" ng-model="loginData.password">
+                    </label>
+                </div>
+                <!--<label class="item">-->
+                <button class="button button-block reset_border_radius_all aclrbackground cclrfont" ng-click="login()">Login</button>
+                <div class="text-center" ng-if="loggingIn">
+                    <ion-spinner></ion-spinner>
+                </div>
+                <!--</label>-->
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

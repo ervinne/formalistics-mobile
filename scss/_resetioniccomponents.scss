@@ -1,0 +1,59 @@
+//Ionic reset ui
+
+.reset_margin_all {
+	margin:0px;
+}
+
+.reset_margin_top {
+	margin-top:0px;
+}
+
+.reset_margin_right {
+	margin-right:0px;
+}
+
+.reset_margin_bottom {
+	margin-bottom:0px;
+}
+
+.reset_margin_left {
+	margin-left:0px;
+}
+
+
+.reset_border_radius_all {
+	border-radius:0px;
+}
+
+.reset_border_radius_top_left {
+	border-top-left-radius:0px;
+}
+
+.reset_border_radius_top_right {
+	border-top-right-radius:0px;
+}
+
+.reset_border_radius_bottom_left {
+	border-bottom-left-radius:0px;
+}
+
+.reset_border_radius_bottom_right {
+	border-bottom-right-radius:0px;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+	@extend .aclrfont;
+}
+.tabs-striped .tab-item.tab-item-active, .tabs-striped .tab-item.active, .tabs-striped .tab-item.activated {
+	border-color:$d; 	
+}
+
+ion-nav-back-button {
+	i {
+		@extend .cclrfont;
+	}
+
+	span {
+		@extend .cclrfont;
+	}
+}  

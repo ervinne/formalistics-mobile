@@ -1,0 +1,25 @@
+$a: #ff9000;
+$b: #eff1f5;
+$c: #ffffff;
+$d: #f27321;
+
+$clrkey: aclr, bclr, cclr, dclr;    
+$clrval: $a, $b, $c, $d; 
+
+$i: 1;
+@each $class in $clrkey {
+    .#{$class}background {  
+        background-color: nth($clrval, $i)
+    }
+  $i: $i + 1;
+}
+
+
+$i: 1;
+@each $class in $clrkey {
+    .#{$class}font {  
+        color: nth($clrval, $i) !important
+    }
+  $i: $i + 1;
+}
+ 

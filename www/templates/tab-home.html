@@ -1,0 +1,42 @@
+<ion-view view-title="Home">
+    <ion-content class="bclrbackground">
+        <ion-refresher
+            pulling-text="Pull to refresh..."
+            on-refresh="">
+        </ion-refresher>
+        <div class="list card reset_margin_top reset_margin_right reset_margin_left reset_border_radius_bottom_left reset_border_radius_bottom_right" ng-repeat="post in posts">
+            <div class="item item-avatar">
+                <img src="{{post.postAvatar}}">
+                <h2>{{post.postName}}</h2>
+                <p>{{post.postDate}}</p>
+            </div>
+
+            <div class="item item-body">
+                <img class="full-image" src="{{post.postImage}}">
+                <p>
+                    {{post.postText}}
+                </p>
+                <p>
+                    <a href="#" class="subdued">{{post.postLikeCtr}} Like</a>
+                    <a href="#" class="subdued">{{post.postCommentCtr}} Comments</a>
+                </p>
+            </div>
+
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a class="tab-item" href="#">
+                    <i class="icon ion-thumbsup"></i>
+                    Like
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-chatbox"></i>
+                    Comment
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-share"></i>
+                    Share
+                </a> 
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>

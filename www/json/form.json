@@ -1,0 +1,34 @@
+{
+    "form_category": [
+        {
+            "form_name": "Human Resources",
+            "form_id": "0",
+            "modules": [
+                {
+                    "0": "Extended Work Time Request",
+                    "1": "Leave Request Form",
+                    "2": "Official Business Form"
+                }
+            ]
+
+        },
+        {
+            "form_name": "Inventory",
+            "form_id": "1",
+            "0": "PC Accountability Form"
+        },
+        {
+            "form_name": "Official Receipts",
+            "form_id": "2",
+            "0": "Official Receipt Form"
+        },
+        {
+            "form_name": "Others",
+            "form_id": "3",
+            "0": "Formalistics QR Code",
+            "1": "Mobility Version Tracking"
+        }
+
+
+    ]
+}
